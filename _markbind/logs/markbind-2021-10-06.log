@@ -1,0 +1,10 @@
+2021-10-06T15:46:37.764Z - info: Initialization success.
+2021-10-06T15:48:00.007Z - error: The site directory does not exist. Please build the site first before deploy.
+2021-10-06T15:48:32.514Z - info: Website generation started at 11:48:32 pm
+2021-10-06T15:48:32.572Z - info: Building assets...
+2021-10-06T15:48:32.587Z - info: Assets built
+2021-10-06T15:48:32.588Z - info: Generating pages...
+2021-10-06T15:48:32.800Z - info: Pages built
+2021-10-06T15:48:32.961Z - info: Site data built
+2021-10-06T15:48:32.961Z - info: Website generation complete! Total build time: 0.515s
+2021-10-06T15:48:32.962Z - info: Build success!
