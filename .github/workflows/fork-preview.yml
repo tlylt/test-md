@@ -1,0 +1,14 @@
+name: Deploy PR Preview
+
+on:
+  workflow_run:
+    workflows: ["Receive Markbind PR"]
+    types:
+      - completed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Deploying to surge
+    steps:
+      - uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-build.yml@main

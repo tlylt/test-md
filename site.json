@@ -1,6 +1,9 @@
 {
   "baseUrl": "/test-md",
   "titlePrefix": "",
+  "style": {
+    "codeTheme": "dark"
+  },
   "ignore": [
     "_markbind/layouts/*",
     "_markbind/logs/*",
@@ -21,7 +24,12 @@
       "glob": ["**/index.md", "**/*.+(md|mbd)"]
     }
   ],
+  "plugins": ["codeBlockCopyButtons"],
   "deploy": {
     "message": "Site Update."
+  },
+  "locale": "af-NA",
+  "intrasiteLinkValidation": {
+    "enabled": true
   }
 }

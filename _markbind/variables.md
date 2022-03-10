@@ -3,4 +3,11 @@ To inject this HTML segment in your markbind files, use {{ example }} where you 
 More generally, surround the segment's id with double curly braces.
 </variable>
 
+<variable name="test">
+<script>
+  var test = document.title
+  alert(test)
+</script>
+</variable>
+
 <variable from="variables.json" />

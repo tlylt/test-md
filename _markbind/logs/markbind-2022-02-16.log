@@ -1,0 +1,54 @@
+2022-02-16T10:35:11.798Z - info: Website generation started at 6:35:11 pm
+2022-02-16T10:35:11.936Z - info: Building assets...
+2022-02-16T10:35:12.002Z - info: Assets built
+2022-02-16T10:35:12.003Z - info: Generating pages...
+2022-02-16T10:35:12.260Z - info: Pages built
+2022-02-16T10:35:12.490Z - info: Site data built
+2022-02-16T10:35:12.491Z - info: Website generation complete! Total build time: 0.819s
+2022-02-16T10:35:12.523Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\_site" at http://127.0.0.1:8080
+2022-02-16T10:35:12.523Z - info: Press CTRL+C to stop ...
+2022-02-16T10:35:23.965Z - info: [6:35:23 pm] Reload for file change: C:\Users\User\Documents\GitHub\test-md\index.md
+2022-02-16T10:35:24.973Z - info: Rebuilding 1 pages
+2022-02-16T10:35:25.001Z - info: Site data built
+2022-02-16T10:35:25.001Z - info: Pages rebuilt
+2022-02-16T10:35:25.001Z - info: Website regeneration complete! Total build time: 0.029s
+2022-02-16T10:35:34.374Z - info: [6:35:34 pm] Reload for file change: C:\Users\User\Documents\GitHub\test-md\index.md
+2022-02-16T10:35:35.376Z - info: Rebuilding 1 pages
+2022-02-16T10:35:35.400Z - info: Site data built
+2022-02-16T10:35:35.400Z - info: Pages rebuilt
+2022-02-16T10:35:35.400Z - info: Website regeneration complete! Total build time: 0.024s
+2022-02-16T10:36:01.429Z - info: [6:36:01 pm] Reload for file change: C:\Users\User\Documents\GitHub\test-md\index.md
+2022-02-16T10:36:02.441Z - info: Rebuilding 1 pages
+2022-02-16T10:36:02.447Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/test-md/mailto:foo@bar.com' found in file 'C:\Users\User\Documents\GitHub\test-md\index.md'
+2022-02-16T10:36:02.467Z - info: Site data built
+2022-02-16T10:36:02.468Z - info: Pages rebuilt
+2022-02-16T10:36:02.468Z - info: Website regeneration complete! Total build time: 0.027s
+2022-02-16T10:36:12.418Z - info: [6:36:12 pm] Reload for file change: C:\Users\User\Documents\GitHub\test-md\index.md
+2022-02-16T10:36:13.423Z - info: Rebuilding 1 pages
+2022-02-16T10:36:13.445Z - info: Site data built
+2022-02-16T10:36:13.445Z - info: Pages rebuilt
+2022-02-16T10:36:13.445Z - info: Website regeneration complete! Total build time: 0.023s
+2022-02-16T11:31:40.655Z - info: Website generation started at 7:31:40 pm
+2022-02-16T11:31:40.769Z - info: Building assets...
+2022-02-16T11:31:40.835Z - info: Assets built
+2022-02-16T11:31:40.836Z - info: Generating pages...
+2022-02-16T11:31:41.099Z - info: Pages built
+2022-02-16T11:31:41.239Z - info: Site data built
+2022-02-16T11:31:41.240Z - info: Website generation complete! Total build time: 0.645s
+2022-02-16T11:31:41.272Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\_site" at http://127.0.0.1:8080
+2022-02-16T11:31:41.272Z - info: Press CTRL+C to stop ...
+2022-02-16T11:37:42.700Z - info: Website generation started at 7:37:42 pm
+2022-02-16T11:37:42.790Z - info: Building assets...
+2022-02-16T11:37:42.843Z - info: Assets built
+2022-02-16T11:37:42.844Z - info: Generating pages...
+2022-02-16T11:37:43.067Z - info: Pages built
+2022-02-16T11:37:43.174Z - info: Site data built
+2022-02-16T11:37:43.174Z - info: Website generation complete! Total build time: 0.524s
+2022-02-16T11:37:43.194Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\_site" at http://127.0.0.1:8080
+2022-02-16T11:37:43.194Z - info: Press CTRL+C to stop ...
+2022-02-16T11:37:55.016Z - info: [7:37:55 pm] Reload for file change: C:\Users\User\Documents\GitHub\test-md\index.md
+2022-02-16T11:37:56.029Z - info: Rebuilding 1 pages
+2022-02-16T11:37:56.064Z - info: Site data built
+2022-02-16T11:37:56.064Z - info: Pages rebuilt
+2022-02-16T11:37:56.065Z - info: Website regeneration complete! Total build time: 0.036s

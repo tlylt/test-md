@@ -1,0 +1,13 @@
+name: Receive Markbind PR
+
+# read-only
+# no access to secrets
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:        
+      - name: Build Fork PR
+        uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-build.yml@main
