@@ -9,5 +9,4 @@ on:
 jobs:
   build:
     name: Deploying to surge
-    steps:
-      - uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-build.yml@main
+    uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-build.yml@main
