@@ -1,4 +1,4 @@
-name: Receive Markbind PR
+name: Build Fork PR
 
 # read-only
 # no access to secrets

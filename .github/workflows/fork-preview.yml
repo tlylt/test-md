@@ -1,12 +1,12 @@
-name: Deploy PR Preview
+name: Preview Fork PR
 
 on:
   workflow_run:
-    workflows: ["Receive Markbind PR"]
+    workflows: ["Build Fork PR"]
     types:
       - completed
 
 jobs:
   build:
     name: Deploying to surge
-    uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-build.yml@main
+    uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-preview.yml@main
