@@ -10,5 +10,5 @@ jobs:
   build:
     name: Deploying to surge
     uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-preview.yml@main
-      with:
-        token: ${{ secrets.SURGE_TOKEN }}    
+    with:
+      token: ${{ secrets.SURGE_TOKEN }}    
