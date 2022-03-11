@@ -4,6 +4,6 @@ on:
 
 jobs:
   reusable_workflow_job:
-    - uses: tlylt/test-md/.github/workflows/reusable.yml@main
-      with:
-        version: 3.1.0
+    uses: tlylt/test-md/.github/workflows/reusable.yml@main
+    with:
+      version: 3.1.0
