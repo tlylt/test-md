@@ -9,8 +9,6 @@
       └── <tooltip content="hello">index.md</tooltip>
 </div>
 
-# Tree
-A new component to display tree-like structures, such as folders and files.
 
 ### Single Tree
 <tooltip content="test"><i>coupling</i></tooltip>
