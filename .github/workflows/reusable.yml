@@ -15,6 +15,6 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v2
       - name: install right version
-        run: npm i -g markbind-cli@${{ input.version }}
+        run: npm i -g markbind-cli@${{ inputs.version }}
       - name: print
         run: markbind -V
