@@ -12,5 +12,6 @@ concurrency:
 
 jobs:
   build:
+    - uses: actions/checkout@v2
     name: Build Fork PR
     uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-build.yml@main
