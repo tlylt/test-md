@@ -1,0 +1,21 @@
+name: Reuse
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        type: 
+        default: 'latest'
+        type: string
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Node
+        uses: actions/setup-node@v2
+      - name: install right version
+        run: npm i -g markbind-cli@${{ input.version }}
+      - name: print
+        run: markbind -V
