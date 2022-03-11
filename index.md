@@ -3,13 +3,6 @@
   pageNav: 2
 </frontmatter>
 
-<div class="tree">
-  C:/course/
-  └── textbook/
-      └── <tooltip content="hello">index.md</tooltip>
-</div>
-
-
 ### Single Tree
 <tooltip content="test"><i>coupling</i></tooltip>
 <tooltip id="tt:trigger_id" content="This tooltip triggered by a trigger"></tooltip>
