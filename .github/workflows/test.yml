@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: .github/workflows/reusable.yml@main
+      - uses: tlylt/test-md/.github/workflows/reusable.yml@main
         with:
           version: 3.1.0
