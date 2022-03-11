@@ -17,7 +17,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '12'
-          cache: 'npm'
       - name: install right version
         run: npm i -g markbind-cli@${{ inputs.version }}
       - name: build
