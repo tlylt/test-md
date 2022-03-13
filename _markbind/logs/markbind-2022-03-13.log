@@ -79,3 +79,15 @@
 2022-03-13T01:37:04.884Z - info: Website generation complete! Total build time: 1.37s
 2022-03-13T01:37:04.903Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\_site" at http://127.0.0.1:8080
 2022-03-13T01:37:04.904Z - info: Press CTRL+C to stop ...
+2022-03-13T01:37:24.960Z - info: [9:37:24 am] Reload for file change: C:\Users\User\Documents\GitHub\test-md\site.json
+2022-03-13T01:37:26.044Z - info: Pages or site config modified, updating pages...
+2022-03-13T01:37:27.115Z - warn: Rebuilding all pages...
+2022-03-13T01:37:27.115Z - info: Generating pages...
+2022-03-13T01:37:27.228Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/test-md/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T01:37:27.475Z - info: Pages built
+2022-03-13T01:37:27.478Z - info: Site data built
+2022-03-13T01:40:38.239Z - info: [9:40:38 am] Reload for file deletion: C:\Users\User\Documents\GitHub\test-md\package.json
+2022-03-13T01:40:39.304Z - debug: Assets removed
+2022-03-13T01:40:40.595Z - info: [9:40:40 am] Reload for file deletion: C:\Users\User\Documents\GitHub\test-md\package-lock.json
+2022-03-13T01:40:41.659Z - debug: Assets removed
