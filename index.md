@@ -3,19 +3,6 @@
   pageNav: 2
 </frontmatter>
 
-Stirling's approximation:
-
-$$
-\begin{aligned}
-n! = \sqrt{2 \pi n} (\frac{n}{e})^n e^{\alpha_n} \\
-where \\
-\frac{1}{12n+1} < \alpha_n < \frac{1}{12n}
-\end{aligned}
-$$
-
-\[ 3x + y = 11 \] 
-
-
 <div class="tree">
   C:/course/
   └── textbook/
