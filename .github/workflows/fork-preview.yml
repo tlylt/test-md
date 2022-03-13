@@ -10,5 +10,7 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: Deploying to surge
     uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-preview.yml@main
+    with:
+      baseUrl: 'test-md'
     secrets:
       token: ${{ secrets.SURGE_TOKEN }}

@@ -7,6 +7,13 @@ on:
         description: specify a version of markbind to use. e.g. 3.1.1
         default: 'latest'
         type: string
+      keep-history:
+        default: false
+        type: bool
+      target_branch:
+        default: 'gh-pages'
+        type: string
+      
 
 jobs:
   install:

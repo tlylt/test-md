@@ -1,0 +1,81 @@
+2022-03-13T01:20:05.018Z - info: Website generation started at 9:20:04 am
+2022-03-13T01:20:05.260Z - info: Building assets...
+2022-03-13T01:20:05.777Z - info: Assets built
+2022-03-13T01:20:05.777Z - info: Generating pages...
+2022-03-13T01:20:06.041Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T01:20:06.176Z - info: Pages built
+2022-03-13T01:20:06.337Z - info: Site data built
+2022-03-13T01:20:06.337Z - info: Website generation complete! Total build time: 1.622s
+2022-03-13T01:20:06.338Z - info: Build success!
+2022-03-13T01:20:37.232Z - info: Website generation started at 9:20:37 am
+2022-03-13T01:20:37.427Z - info: Building assets...
+2022-03-13T01:20:37.925Z - info: Assets built
+2022-03-13T01:20:37.926Z - info: Generating pages...
+2022-03-13T01:20:38.166Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'yo/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T01:20:38.293Z - info: Pages built
+2022-03-13T01:20:38.396Z - info: Site data built
+2022-03-13T01:20:38.396Z - info: Website generation complete! Total build time: 1.381s
+2022-03-13T01:20:38.397Z - info: Build success!
+2022-03-13T01:20:47.894Z - info: Website generation started at 9:20:47 am
+2022-03-13T01:20:48.088Z - info: Building assets...
+2022-03-13T01:20:48.564Z - info: Assets built
+2022-03-13T01:20:48.564Z - info: Generating pages...
+2022-03-13T01:20:48.803Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T01:20:48.930Z - info: Pages built
+2022-03-13T01:20:49.035Z - info: Site data built
+2022-03-13T01:20:49.036Z - info: Website generation complete! Total build time: 1.356s
+2022-03-13T01:20:49.036Z - info: Build success!
+2022-03-13T01:22:39.539Z - info: Website generation started at 9:22:39 am
+2022-03-13T01:22:39.731Z - info: Building assets...
+2022-03-13T01:22:40.203Z - info: Assets built
+2022-03-13T01:22:40.204Z - info: Generating pages...
+2022-03-13T01:22:40.445Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'''/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T01:22:40.596Z - info: Pages built
+2022-03-13T01:22:40.707Z - info: Site data built
+2022-03-13T01:22:40.707Z - info: Website generation complete! Total build time: 1.386s
+2022-03-13T01:22:40.707Z - info: Build success!
+2022-03-13T01:22:46.686Z - info: Website generation started at 9:22:46 am
+2022-03-13T01:22:46.879Z - info: Building assets...
+2022-03-13T01:22:47.367Z - info: Assets built
+2022-03-13T01:22:47.368Z - info: Generating pages...
+2022-03-13T01:22:47.608Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'yo/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T01:22:47.755Z - info: Pages built
+2022-03-13T01:22:47.867Z - info: Site data built
+2022-03-13T01:22:47.867Z - info: Website generation complete! Total build time: 1.393s
+2022-03-13T01:22:47.867Z - info: Build success!
+2022-03-13T01:22:54.957Z - info: Website generation started at 9:22:54 am
+2022-03-13T01:22:55.152Z - info: Building assets...
+2022-03-13T01:22:55.645Z - info: Assets built
+2022-03-13T01:22:55.646Z - info: Generating pages...
+2022-03-13T01:22:55.883Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T01:22:56.033Z - info: Pages built
+2022-03-13T01:22:56.151Z - info: Site data built
+2022-03-13T01:22:56.152Z - info: Website generation complete! Total build time: 1.411s
+2022-03-13T01:22:56.152Z - info: Build success!
+2022-03-13T01:36:57.774Z - info: Website generation started at 9:36:57 am
+2022-03-13T01:36:57.967Z - info: Building assets...
+2022-03-13T01:36:58.500Z - info: Assets built
+2022-03-13T01:36:58.501Z - info: Generating pages...
+2022-03-13T01:36:58.766Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/test-md/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T01:36:58.896Z - info: Pages built
+2022-03-13T01:36:59.023Z - info: Site data built
+2022-03-13T01:36:59.023Z - info: Website generation complete! Total build time: 1.483s
+2022-03-13T01:36:59.024Z - info: Build success!
+2022-03-13T01:37:03.725Z - info: Website generation started at 9:37:03 am
+2022-03-13T01:37:03.917Z - info: Building assets...
+2022-03-13T01:37:04.400Z - info: Assets built
+2022-03-13T01:37:04.400Z - info: Generating pages...
+2022-03-13T01:37:04.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/test-md/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T01:37:04.785Z - info: Pages built
+2022-03-13T01:37:04.883Z - info: Site data built
+2022-03-13T01:37:04.884Z - info: Website generation complete! Total build time: 1.37s
+2022-03-13T01:37:04.903Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\_site" at http://127.0.0.1:8080
+2022-03-13T01:37:04.904Z - info: Press CTRL+C to stop ...
