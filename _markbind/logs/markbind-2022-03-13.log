@@ -91,3 +91,915 @@
 2022-03-13T01:40:39.304Z - debug: Assets removed
 2022-03-13T01:40:40.595Z - info: [9:40:40 am] Reload for file deletion: C:\Users\User\Documents\GitHub\test-md\package-lock.json
 2022-03-13T01:40:41.659Z - debug: Assets removed
+2022-03-13T01:57:30.920Z - error: EPERM: operation not permitted, lstat 'C:\$Recycle.Bin\S-1-5-18'
+2022-03-13T01:57:56.039Z - info: Website generation started at 9:57:55 am
+2022-03-13T01:57:56.239Z - info: Building assets...
+2022-03-13T01:57:56.716Z - info: Assets built
+2022-03-13T01:57:56.716Z - info: Generating pages...
+2022-03-13T01:57:56.725Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T01:57:56.728Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T01:57:56.731Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T01:57:56.734Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T01:57:56.736Z - warn:  Error: Error while generating undefined
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1183:18
+2022-03-13T01:57:56.952Z - info: Site data built
+2022-03-13T01:57:56.952Z - info: Website generation complete! Total build time: 1.147s
+2022-03-13T01:57:56.952Z - info: Build success!
+2022-03-13T02:00:20.055Z - info: Website generation started at 10:00:20 am
+2022-03-13T02:00:20.252Z - info: Building assets...
+2022-03-13T02:00:20.725Z - info: Assets built
+2022-03-13T02:00:20.726Z - info: Generating pages...
+2022-03-13T02:00:20.735Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:20.739Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:20.741Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:20.744Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:20.745Z - warn:  Error: Error while generating undefined
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1183:18
+2022-03-13T02:00:20.928Z - info: Site data built
+2022-03-13T02:00:20.928Z - info: Website generation complete! Total build time: 0.916s
+2022-03-13T02:00:20.928Z - info: Build success!
+2022-03-13T02:00:33.931Z - info: Website generation started at 10:00:33 am
+2022-03-13T02:00:34.125Z - info: Building assets...
+2022-03-13T02:00:34.605Z - info: Assets built
+2022-03-13T02:00:34.605Z - info: Generating pages...
+2022-03-13T02:00:34.614Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:34.618Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:34.620Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:34.623Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:34.624Z - warn:  Error: Error while generating undefined
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1183:18
+2022-03-13T02:00:34.807Z - info: Site data built
+2022-03-13T02:00:34.807Z - info: Website generation complete! Total build time: 0.917s
+2022-03-13T02:00:34.808Z - info: Build success!
+2022-03-13T02:00:42.877Z - info: Website generation started at 10:00:42 am
+2022-03-13T02:00:43.070Z - info: Building assets...
+2022-03-13T02:00:43.544Z - info: Assets built
+2022-03-13T02:00:43.545Z - info: Generating pages...
+2022-03-13T02:00:43.554Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:43.557Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:43.560Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:43.562Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:00:43.564Z - warn:  Error: Error while generating undefined
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1183:18
+2022-03-13T02:00:43.735Z - info: Site data built
+2022-03-13T02:00:43.735Z - info: Website generation complete! Total build time: 0.9s
+2022-03-13T02:00:43.735Z - info: Build success!
+2022-03-13T02:00:52.287Z - info: Website generation started at 10:00:52 am
+2022-03-13T02:00:52.491Z - info: Building assets...
+2022-03-13T02:00:52.967Z - info: Assets built
+2022-03-13T02:00:52.967Z - info: Generating pages...
+2022-03-13T02:00:53.209Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T02:00:53.322Z - info: Pages built
+2022-03-13T02:00:53.420Z - info: Site data built
+2022-03-13T02:00:53.420Z - info: Website generation complete! Total build time: 1.175s
+2022-03-13T02:00:53.421Z - info: Build success!
+2022-03-13T02:01:24.211Z - info: Website generation started at 10:01:23 am
+2022-03-13T02:01:24.394Z - info: Building assets...
+2022-03-13T02:01:24.870Z - info: Assets built
+2022-03-13T02:01:24.871Z - info: Generating pages...
+2022-03-13T02:01:24.881Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:01:24.886Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:01:24.889Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:01:24.892Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T02:01:24.894Z - warn:  Error: Error while generating undefined
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1183:18
+2022-03-13T02:01:25.079Z - info: Site data built
+2022-03-13T02:01:25.079Z - info: Website generation complete! Total build time: 1.084s
+2022-03-13T02:01:25.079Z - info: Build success!
+2022-03-13T02:01:29.263Z - info: Website generation started at 10:01:29 am
+2022-03-13T02:01:29.464Z - info: Building assets...
+2022-03-13T02:01:29.945Z - info: Assets built
+2022-03-13T02:01:29.946Z - info: Generating pages...
+2022-03-13T02:01:30.190Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-13T02:01:30.300Z - info: Pages built
+2022-03-13T02:01:30.394Z - info: Site data built
+2022-03-13T02:01:30.395Z - info: Website generation complete! Total build time: 1.173s
+2022-03-13T02:01:30.395Z - info: Build success!
+2022-03-13T02:03:05.390Z - error: Failed to read the site config file './test/site2.json' atC:\Users\User\Documents\GitHub\test-md\test:
+C:\Users\User\Documents\GitHub\test-md\test\test\site2.json: ENOENT: no such file or directory, open 'C:\Users\User\Documents\GitHub\test-md\test\test\site2.json'
+Please ensure the file exist or is valid
+2022-03-13T02:03:54.251Z - error: No config file found in parent directories of C:\Users\User\Documents\GitHub\test-md
+2022-03-13T02:03:54.273Z - error: uncaughtException: The "path" argument must be of type string. Received undefined date=Sun Mar 13 2022 10:03:54 GMT+0800 (Singapore Standard Time), pid=22256, uid=null, gid=null, cwd=C:\Users\User\Documents\GitHub\test-md, execPath=C:\Program Files\nodejs\node.exe, version=v14.15.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\User\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve, -s, /test/site2.json], rss=79773696, heapTotal=63401984, heapUsed=37964584, external=1890620, arrayBuffers=367242, loadavg=[0, 0, 0], uptime=131389
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:375:7)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:117:29)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-13T02:04:06.466Z - error: No config file found in parent directories of C:\Users\User\Documents\GitHub\test-md
+2022-03-13T02:04:06.481Z - error: uncaughtException: The "path" argument must be of type string. Received undefined date=Sun Mar 13 2022 10:04:06 GMT+0800 (Singapore Standard Time), pid=7320, uid=null, gid=null, cwd=C:\Users\User\Documents\GitHub\test-md, execPath=C:\Program Files\nodejs\node.exe, version=v14.15.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\User\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve, -s, site2.json], rss=79884288, heapTotal=63664128, heapUsed=38097024, external=1915359, arrayBuffers=391981, loadavg=[0, 0, 0], uptime=131401
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:375:7)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:117:29)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-13T02:04:17.671Z - error: No config file found in parent directories of C:\Users\User\Documents\GitHub\test-md
+2022-03-13T02:04:17.685Z - error: uncaughtException: The "path" argument must be of type string. Received undefined date=Sun Mar 13 2022 10:04:17 GMT+0800 (Singapore Standard Time), pid=17580, uid=null, gid=null, cwd=C:\Users\User\Documents\GitHub\test-md, execPath=C:\Program Files\nodejs\node.exe, version=v14.15.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\User\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve, -s, ./site2.json], rss=79253504, heapTotal=63401984, heapUsed=37890072, external=1890620, arrayBuffers=367242, loadavg=[0, 0, 0], uptime=131412
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:375:7)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:117:29)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-13T02:04:23.185Z - error: Failed to read the site config file './test/site2.json' atC:\Users\User\Documents\GitHub\test-md\test:
+C:\Users\User\Documents\GitHub\test-md\test\test\site2.json: ENOENT: no such file or directory, open 'C:\Users\User\Documents\GitHub\test-md\test\test\site2.json'
+Please ensure the file exist or is valid
+2022-03-13T02:04:48.090Z - error: No config file found in parent directories of C:\Users\User\Documents\GitHub\test-md
+2022-03-13T02:04:48.104Z - error: uncaughtException: The "path" argument must be of type string. Received undefined date=Sun Mar 13 2022 10:04:48 GMT+0800 (Singapore Standard Time), pid=19464, uid=null, gid=null, cwd=C:\Users\User\Documents\GitHub\test-md, execPath=C:\Program Files\nodejs\node.exe, version=v14.15.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\User\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve, -s, ./site2.json], rss=79650816, heapTotal=63401984, heapUsed=37924760, external=1890620, arrayBuffers=367242, loadavg=[0, 0, 0], uptime=131442
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:375:7)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:117:29)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-13T02:07:32.247Z - error: Failed to read the site config file 'test/site2.json' atC:\Users\User\Documents\GitHub\test-md\test:
+C:\Users\User\Documents\GitHub\test-md\test\test\site2.json: ENOENT: no such file or directory, open 'C:\Users\User\Documents\GitHub\test-md\test\test\site2.json'
+Please ensure the file exist or is valid
+2022-03-13T02:07:45.907Z - error: Failed to read the site config file 'test\site2.json' atC:\Users\User\Documents\GitHub\test-md\test:
+C:\Users\User\Documents\GitHub\test-md\test\test\site2.json: ENOENT: no such file or directory, open 'C:\Users\User\Documents\GitHub\test-md\test\test\site2.json'
+Please ensure the file exist or is valid
+2022-03-13T02:08:33.677Z - info: Initialization success.
+2022-03-13T04:18:26.352Z - error: Config file not found at user specified root C:\Users\User\Documents\GitHub\test-md\docs
+2022-03-13T04:18:26.368Z - error: uncaughtException: The "path" argument must be of type string. Received undefined date=Sun Mar 13 2022 12:18:26 GMT+0800 (Singapore Standard Time), pid=16560, uid=null, gid=null, cwd=C:\Users\User\Documents\GitHub\test-md, execPath=C:\Program Files\nodejs\node.exe, version=v14.15.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\User\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve, ./docs, -s, ./docs/custom/site2.json], rss=79294464, heapTotal=63401984, heapUsed=37991648, external=1915359, arrayBuffers=391981, loadavg=[0, 0, 0], uptime=139461
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:375:7)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:117:29)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-13T04:18:35.556Z - error: Config file not found at user specified root C:\docs
+2022-03-13T04:18:35.570Z - error: uncaughtException: The "path" argument must be of type string. Received undefined date=Sun Mar 13 2022 12:18:35 GMT+0800 (Singapore Standard Time), pid=16764, uid=null, gid=null, cwd=C:\Users\User\Documents\GitHub\test-md, execPath=C:\Program Files\nodejs\node.exe, version=v14.15.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\User\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve, /docs, -s, ./docs/custom/site2.json], rss=79376384, heapTotal=63139840, heapUsed=37965264, external=1890620, arrayBuffers=367242, loadavg=[0, 0, 0], uptime=139470
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:375:7)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:117:29)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-13T04:18:44.890Z - error: Config file not found at user specified root C:\docs
+2022-03-13T04:18:44.904Z - error: uncaughtException: The "path" argument must be of type string. Received undefined date=Sun Mar 13 2022 12:18:44 GMT+0800 (Singapore Standard Time), pid=7328, uid=null, gid=null, cwd=C:\Users\User\Documents\GitHub\test-md, execPath=C:\Program Files\nodejs\node.exe, version=v14.15.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\User\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve, /docs], rss=79278080, heapTotal=63139840, heapUsed=37882584, external=1890620, arrayBuffers=367242, loadavg=[0, 0, 0], uptime=139479
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:375:7)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:117:29)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-13T04:18:48.966Z - info: Website generation started at 12:18:48 pm
+2022-03-13T04:18:49.012Z - info: Building assets...
+2022-03-13T04:18:49.024Z - info: Assets built
+2022-03-13T04:18:49.025Z - info: Generating pages...
+2022-03-13T04:18:49.214Z - info: Pages built
+2022-03-13T04:18:49.312Z - info: Site data built
+2022-03-13T04:18:49.312Z - info: Website generation complete! Total build time: 0.389s
+2022-03-13T04:18:49.330Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\docs\_site" at http://127.0.0.1:8080
+2022-03-13T04:18:49.331Z - info: Press CTRL+C to stop ...
+2022-03-13T04:19:16.307Z - error: Config file not found at user specified root C:\Users\User\Documents\GitHub\test-md\docs
+2022-03-13T04:19:16.321Z - error: uncaughtException: The "path" argument must be of type string. Received undefined date=Sun Mar 13 2022 12:19:16 GMT+0800 (Singapore Standard Time), pid=11716, uid=null, gid=null, cwd=C:\Users\User\Documents\GitHub\test-md, execPath=C:\Program Files\nodejs\node.exe, version=v14.15.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\User\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve, ./docs, -s, site2.json], rss=79212544, heapTotal=63139840, heapUsed=37615592, external=1880211, arrayBuffers=356833, loadavg=[0, 0, 0], uptime=139511
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:375:7)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:117:29)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-13T04:19:27.156Z - info: Website generation started at 12:19:27 pm
+2022-03-13T04:19:27.195Z - info: Building assets...
+2022-03-13T04:19:27.206Z - info: Assets built
+2022-03-13T04:19:27.207Z - info: Generating pages...
+2022-03-13T04:19:27.214Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:27.217Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:27.219Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:27.222Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:27.223Z - warn:  Error: Error while generating undefined
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1183:18
+2022-03-13T04:19:27.325Z - info: Site data built
+2022-03-13T04:19:27.326Z - info: Website generation complete! Total build time: 0.214s
+2022-03-13T04:19:27.344Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\docs\_site" at http://127.0.0.1:8080
+2022-03-13T04:19:27.344Z - info: Press CTRL+C to stop ...
+2022-03-13T04:19:43.165Z - info: Website generation started at 12:19:43 pm
+2022-03-13T04:19:43.203Z - info: Building assets...
+2022-03-13T04:19:43.215Z - info: Assets built
+2022-03-13T04:19:43.216Z - info: Generating pages...
+2022-03-13T04:19:43.223Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:43.227Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:43.229Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:43.231Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:43.232Z - warn:  Error: Error while generating undefined
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1183:18
+2022-03-13T04:19:43.334Z - info: Site data built
+2022-03-13T04:19:43.334Z - info: Website generation complete! Total build time: 0.209s
+2022-03-13T04:19:43.353Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\docs\_site" at http://127.0.0.1:8080
+2022-03-13T04:19:43.353Z - info: Press CTRL+C to stop ...
+2022-03-13T04:19:54.466Z - info: Website generation started at 12:19:54 pm
+2022-03-13T04:19:54.505Z - warn: ENOENT: no such file or directory, open 'C:\Users\User\Documents\GitHub\test-md\docs\custom\_markbind\variables.md'
+2022-03-13T04:19:54.510Z - info: Building assets...
+2022-03-13T04:19:54.523Z - info: Assets built
+2022-03-13T04:19:54.524Z - info: Generating pages...
+2022-03-13T04:19:54.533Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:54.537Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:54.539Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:54.541Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:19:54.543Z - warn:  Error: Error while generating undefined
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1183:18
+2022-03-13T04:19:54.645Z - info: Site data built
+2022-03-13T04:19:54.645Z - info: Website generation complete! Total build time: 0.22s
+2022-03-13T04:19:54.663Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\docs\_site" at http://127.0.0.1:8080
+2022-03-13T04:19:54.663Z - info: Press CTRL+C to stop ...
+2022-03-13T04:23:23.264Z - info: Website generation started at 12:23:23 pm
+2022-03-13T04:23:23.303Z - info: Building assets...
+2022-03-13T04:23:23.316Z - info: Assets built
+2022-03-13T04:23:23.317Z - info: Generating pages...
+2022-03-13T04:23:23.325Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:23:23.328Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:23:23.331Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:23:23.333Z - error:  TypeError: Cannot read property 'renderFile' of undefined
+    at VariableProcessor.renderWithSiteVariables (C:\Users\User\Documents\GitHub\markbind\packages\core\src\variables\VariableProcessor.js:157:53)
+    at Page.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Page\index.js:472:37)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1175:22
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:34
+    at Array.forEach (<anonymous>)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1193:10
+    at Promise._execute (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\debuggability.js:384:9)
+    at Promise._resolveFromExecutor (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:518:18)
+    at new Promise (C:\Users\User\Documents\GitHub\markbind\node_modules\bluebird\js\release\promise.js:103:10)
+    at Site.generatePagesAsyncThrottled (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1153:12)
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1104:34
+    at sequentialAsyncForEach (C:\Users\User\Documents\GitHub\markbind\packages\core\src\utils\async.js:15:13)
+    at Site.runPageGenerationTasks (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1093:11)
+    at Site.generatePages (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1238:17)
+    at Site.buildSourceFiles (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:690:18)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:651:68)
+2022-03-13T04:23:23.335Z - warn:  Error: Error while generating undefined
+    at C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:1183:18
+2022-03-13T04:23:23.439Z - info: Site data built
+2022-03-13T04:23:23.440Z - info: Website generation complete! Total build time: 0.216s
+2022-03-13T04:23:23.458Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\docs\_site" at http://127.0.0.1:8080
+2022-03-13T04:23:23.458Z - info: Press CTRL+C to stop ...
+2022-03-13T04:23:33.584Z - error: Config file not found at user specified root C:\Users\User\Documents\GitHub\test-md\docs
+2022-03-13T04:23:33.599Z - error: uncaughtException: The "path" argument must be of type string. Received undefined date=Sun Mar 13 2022 12:23:33 GMT+0800 (Singapore Standard Time), pid=10476, uid=null, gid=null, cwd=C:\Users\User\Documents\GitHub\test-md, execPath=C:\Program Files\nodejs\node.exe, version=v14.15.1, argv=[C:\Program Files\nodejs\node.exe, C:\Users\User\AppData\Roaming\npm\node_modules\markbind-cli\index.js, serve, ./docs, -s, ./docs/custom/site2.json], rss=79474688, heapTotal=63401984, heapUsed=37869552, external=1890620, arrayBuffers=367242, loadavg=[0, 0, 0], uptime=139768
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.join (path.js:375:7)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:117:29)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
