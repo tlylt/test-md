@@ -1,0 +1,16 @@
+name: Unpublish preview site
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Unpublish from Surge
+    uses: tlylt/markbind-reusable-workflows/.github/workflows/unpublish-preview.yml@main
+    with:
+      domain: "test-md.surge.sh"
+    secrets:
+      token: ${{ secrets.SURGE_TOKEN }}
