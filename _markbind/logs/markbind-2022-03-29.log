@@ -9,3 +9,24 @@
 2022-03-29T06:12:36.766Z - info: Website generation complete! Total build time: 1.5s
 2022-03-29T06:12:36.788Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\_site" at http://127.0.0.1:8080
 2022-03-29T06:12:36.789Z - info: Press CTRL+C to stop ...
+2022-03-29T06:19:00.751Z - info: Website generation started at 2:19:00 pm
+2022-03-29T06:19:00.756Z - warn:  Error: Failed to read the site config file 'site.json' atC:\Users\User\Documents\GitHub\test-md:
+C:\Users\User\Documents\GitHub\test-md\site.json: Unexpected string in JSON at position 49
+Please ensure the file exist or is valid
+    at Site.readSiteConfig (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:252:14)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:646:18)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:314:8)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-29T06:19:00.763Z - info: Build success!
