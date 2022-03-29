@@ -1,0 +1,11 @@
+2022-03-29T06:12:35.522Z - info: Website generation started at 2:12:35 pm
+2022-03-29T06:12:35.785Z - info: Building assets...
+2022-03-29T06:12:36.278Z - info: Assets built
+2022-03-29T06:12:36.278Z - info: Generating pages...
+2022-03-29T06:12:36.527Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/test-md/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-29T06:12:36.654Z - info: Pages built
+2022-03-29T06:12:36.766Z - info: Site data built
+2022-03-29T06:12:36.766Z - info: Website generation complete! Total build time: 1.5s
+2022-03-29T06:12:36.788Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\_site" at http://127.0.0.1:8080
+2022-03-29T06:12:36.789Z - info: Press CTRL+C to stop ...
