@@ -7,9 +7,6 @@ on:
         description: specify a version of markbind to use. e.g. 3.1.1
         default: 'latest'
         type: string
-      keep-history:
-        default: false
-        type: bool
       target_branch:
         default: 'gh-pages'
         type: string
@@ -29,12 +26,3 @@ jobs:
         run: npm i -g markbind-cli@${{ inputs.version }}
       - name: build
         run: markbind build
-      - name: Deploy to GitHub Pages
-        if: success()
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          target_branch: gh-pages
-          build_dir: _site
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
