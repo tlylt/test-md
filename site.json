@@ -1,6 +1,6 @@
 {
-  "baseUrl": "/test-md",
-  "titlePrefix": ""
+  "baseUrl": "/test-md"
+  "titlePrefix": "",
   "style": {
     "codeTheme": "dark"
   },

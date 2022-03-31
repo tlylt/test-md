@@ -30,3 +30,84 @@ Please ensure the file exist or is valid
     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
 2022-03-29T06:19:00.763Z - info: Build success!
+2022-03-29T06:30:27.572Z - info: Website generation started at 2:30:27 pm
+2022-03-29T06:30:27.578Z - warn:  Error: Failed to read the site config file 'site.json' atC:\Users\User\Documents\GitHub\test-md:
+C:\Users\User\Documents\GitHub\test-md\site.json: Unexpected token 
+ in JSON at position 36
+Please ensure the file exist or is valid
+    at Site.readSiteConfig (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:252:14)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:646:18)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:314:8)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-29T06:30:27.581Z - info: Build success!
+2022-03-29T06:30:38.651Z - info: Website generation started at 2:30:38 pm
+2022-03-29T06:30:38.873Z - info: Building assets...
+2022-03-29T06:30:39.443Z - info: Assets built
+2022-03-29T06:30:39.443Z - info: Generating pages...
+2022-03-29T06:30:39.731Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/test-md/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-03-29T06:30:39.846Z - info: Pages built
+2022-03-29T06:30:39.954Z - info: Site data built
+2022-03-29T06:30:39.955Z - info: Website generation complete! Total build time: 1.32s
+2022-03-29T06:30:39.955Z - info: Build success!
+2022-03-29T06:39:52.060Z - error: Failed to read the site config file 'site.json' atC:\Users\User\Documents\GitHub\test-md:
+C:\Users\User\Documents\GitHub\test-md\site.json: Unexpected string in JSON at position 28
+Please ensure the file exist or is valid
+2022-03-29T06:40:09.193Z - error: Failed to read the site config file 'site.json' atC:\Users\User\Documents\GitHub\test-md:
+C:\Users\User\Documents\GitHub\test-md\site.json: Unexpected token 
+ in JSON at position 9
+Please ensure the file exist or is valid
+2022-03-29T06:40:58.333Z - info: Website generation started at 2:40:58 pm
+2022-03-29T06:40:58.339Z - warn:  Error: Failed to read the site config file 'site.json' atC:\Users\User\Documents\GitHub\test-md:
+C:\Users\User\Documents\GitHub\test-md\site.json: Unexpected string in JSON at position 28
+Please ensure the file exist or is valid
+    at Site.readSiteConfig (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:252:14)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:646:18)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:314:8)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-29T06:40:58.346Z - info: Build success!
+2022-03-29T06:55:02.305Z - info: Website generation started at 2:55:02 pm
+2022-03-29T06:55:02.309Z - warn:  Error: Failed to read the site config file 'site.json' atC:\Users\User\Documents\GitHub\test-md:
+C:\Users\User\Documents\GitHub\test-md\site.json: Unexpected string in JSON at position 28
+Please ensure the file exist or is valid
+    at Site.readSiteConfig (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:252:14)
+    at Site.generate (C:\Users\User\Documents\GitHub\markbind\packages\core\src\Site\index.js:646:18)
+    at Command.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:314:8)
+    at Command.listener [as _actionHandler] (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:473:17)
+    at C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:65
+    at Command._chainOrCall (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1091:12)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1173:27)
+    at Command._dispatchSubcommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:998:25)
+    at Command._parseCommand (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:1139:19)
+    at Command.parse (C:\Users\User\Documents\GitHub\markbind\node_modules\commander\lib\command.js:845:10)
+    at Object.<anonymous> (C:\Users\User\Documents\GitHub\markbind\packages\cli\index.js:337:9)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-03-29T06:55:02.313Z - info: Build success!
