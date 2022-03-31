@@ -23,11 +23,9 @@ jobs:
         id: check-error
         with:
           script: |
-            process.cwd()
-            console.log(process.cwd())
             const fs = require('fs');
             // check if build directory exists
-            const dir = './_site';
+            const dir = './docs/_site';
 
             // check if directory exists
             if (fs.existsSync(dir)) {
@@ -42,5 +40,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: >-
-          echo $PATH
           # markbind deploy --ci
