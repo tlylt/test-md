@@ -5,21 +5,22 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: test
+    name: dev docs
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v2
         with:
           node-version: 12
       - run: npm i -g markbind-cli@3.1.1
-      - run: markbind build
+      - run: |
+        cd docs
+        markbind build
       - uses: actions/github-script@v6
         id: check-error
         with:
           script: |
             const fs = require('fs');
-
-            // directory to check if exists
+            // check if build directory exists
             const dir = './_site';
 
             // check if directory exists
@@ -27,8 +28,15 @@ jobs:
                 console.log('Directory exists!');
             } else {
                 console.log('Directory not found.');
-                core.setFailed('Build Error!')
+                core.setFailed('Documentation Build Error!')
             }
       - name: Display the path
         run: echo $PATH
         shell: bash
+      - name: Deploy UG on release, to markbind.org
+        if: ${{ success() && github.event_name == 'push' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          echo $PATH
+          # markbind deploy --ci
