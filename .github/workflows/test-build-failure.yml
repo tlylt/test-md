@@ -2,6 +2,7 @@ name: Test failure
 
 on:
   push:
+  pull_request:
 
 jobs:
   build:
@@ -35,8 +36,7 @@ jobs:
                 console.log('Directory not found.');
                 core.setFailed('Documentation Build Error!')
             }
-
-      - name: Deploy UG on release, to markbind.org
+      - name: Deploy UG on release
         if: ${{ success() && github.event_name == 'push' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,5 +44,4 @@ jobs:
           echo $PWD
           ls
           cd docs
-          ls
           # markbind deploy --ci
