@@ -16,15 +16,15 @@ jobs:
       - run: |
           cd docs
           markbind build
-      - name: Display the path
-        run: echo $PATH
+      - name: Display the dir
+        run: echo $PWD
         shell: bash
       - uses: actions/github-script@v6
         id: check-error
         with:
           script: |
-            cwd()
             process.cwd()
+            console.log(process.cwd())
             const fs = require('fs');
             // check if build directory exists
             const dir = './_site';
