@@ -3,33 +3,9 @@
   pageNav: 2
 </frontmatter>
 
-<tree>
-Edit me to generate
-  a
-    nice
-    tree
-  diagram!
-  :)
-</tree>
+From a fork PR
 
 **List style**
-<tree>
-- Edit me to generate
-  - a
-    - nice
-    - tree
-  - diagram!
-  - :)
-</tree>
-
-<tree>
-Edit me to generate
-  - a
-    - nice
-    - tree
-  - diagram!
-  - :)
-</tree>
 
 <tree>
 * Edit me to generate
