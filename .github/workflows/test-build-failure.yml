@@ -42,6 +42,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo $PWD
-          ls
           cd docs
-          # markbind deploy --ci
+          markbind deploy --ci
