@@ -1,5 +1,5 @@
 {
-  "baseUrl": "/test-md"
+  "baseUrl": "/test-md",
   "titlePrefix": "subSite",
   "ignore": [
     "_markbind/layouts/*",

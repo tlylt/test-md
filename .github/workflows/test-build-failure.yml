@@ -18,27 +18,11 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: |
-          ls
-          npm run build
+      - run: npm run build
       - name: Check Build Status
-        run: |
-          ls
-          [ -d "./_site" ] && echo "Directory /path/to/dir exists."
-          [ ! -d "./_site" ] && echo "::error::Documentation Build Error!" && exit 1
-      - uses: actions/github-script@v6
-        id: check-error
-        with:
-          script: |
-            const fs = require('fs');
-            const dir = './docs/_site';
-            if (!fs.existsSync(dir)) {
-                core.setFailed('Documentation Build Error!');
-            }
+        run: [ ! -d "./_site" ] && echo "Developer Documentation Build Error!" && exit 1
       - name: Deploy UG on release
         if: ${{ success() && github.event_name == 'push' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          ls
-          # markbind deploy --ci
+        run: npm run deploy
