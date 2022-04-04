@@ -20,7 +20,8 @@ jobs:
       - run: npm ci
       - run: npm run build
       - name: Check Build Status
-        run: [ ! -d "./_site" ] && echo "Developer Documentation Build Error!" && exit 1
+        run: |
+          [ ! -d "./_site" ] && echo "Developer Documentation Build Error!" && exit 1
       - name: Deploy UG on release
         if: ${{ success() && github.event_name == 'push' }}
         env:
