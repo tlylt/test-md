@@ -8,7 +8,8 @@
     "site.json",
     "*.md",
     "*.njk",
-    ".git/*"
+    ".git/*",
+    "node_modules/*"
   ],
   "pages": [
     {
@@ -16,7 +17,8 @@
       "title": "Landing Page"
     },
     {
-      "glob": ["**/index.md", "**/*.md"]
+      "glob": ["**/index.md", "**/*.md"],
+      "globExclude": ["node_modules/*"]
     }
   ],
   "deploy": {
