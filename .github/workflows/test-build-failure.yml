@@ -19,7 +19,7 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm run build
-      - name: Check Build Status
+      - name: Check build status
         run: |
           if [ ! -d "./_site" ]; then
             echo "Build Error"
