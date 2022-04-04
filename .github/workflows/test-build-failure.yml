@@ -22,7 +22,8 @@ jobs:
       - name: Check Build Status
         run: |
           ls
-          [ ! -d "_site" ] && echo "Developer Documentation Build Error!" && exit 1
+          echo $PWD
+          [ ! -d "_site" ] && echo "Developer Documentation Build Error!"
       - name: Deploy UG on release
         if: ${{ success() && github.event_name == 'push' }}
         env:
