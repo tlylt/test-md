@@ -21,7 +21,10 @@ jobs:
       - run: npm run build
       - name: Check Build Status
         run: |
-          [ ! -d "./_site" ] && echo "Build Error" && exit 1
+          if [ -d "./_site" ]; then
+            echo "Build Error"
+            exit 1
+          fi
       - name: Deploy UG on release
         if: ${{ success() && github.event_name == 'push' }}
         env:
