@@ -26,8 +26,9 @@ jobs:
         shell: bash
       - name: Check Build Status
         run: |
-          [ ! -d "./docs/_site" ] && echo "Directory /path/to/dir DOES NOT exists." && exit 1
-          [ -d "./docs/_site" ] && echo "Directory /path/to/dir exists."
+          ls
+          [ ! -d "./_site" ] && echo "Directory /path/to/dir DOES NOT exists." && exit 1
+          [ -d "./_site" ] && echo "Directory /path/to/dir exists."
       - uses: actions/github-script@v6
         id: check-error
         with:
