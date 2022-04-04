@@ -29,15 +29,9 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            // check if build directory exists
             const dir = './docs/_site';
-
-            // check if directory exists
-            if (fs.existsSync(dir)) {
-                console.log('Directory exists!');
-            } else {
-                console.log('Directory not found.');
-                core.setFailed('Documentation Build Error!')
+            if (!fs.existsSync(dir)) {
+                core.setFailed('Documentation Build Error!');
             }
       - name: Deploy UG on release
         if: ${{ success() && github.event_name == 'push' }}
