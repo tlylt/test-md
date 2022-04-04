@@ -21,7 +21,7 @@ jobs:
       - run: npm run build
       - name: Check Build Status
         run: |
-          if [ -d "./_site" ]; then
+          if [ ! -d "./_site" ]; then
             echo "Build Error"
             exit 1
           fi
