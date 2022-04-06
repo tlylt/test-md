@@ -25,6 +25,10 @@ jobs:
             echo "Build Error"
             exit 1
           fi
+      - name: Check continue on error status
+        continue-on-error: true
+        run: |
+          exit 1
       - name: Deploy UG on release
         if: ${{ success() && github.event_name == 'push' }}
         env:
