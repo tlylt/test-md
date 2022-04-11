@@ -1,6 +1,7 @@
 name: Call a reusable workflow
 on:
-  push:
+  workflow_dispatch:
+  # push:
 
 jobs:
   reusable_workflow_job:
