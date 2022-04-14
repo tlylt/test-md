@@ -17,6 +17,10 @@ jobs:
         with:
           java-version: '11'
           distribution: 'temurin'
+      - name: Install graphviz
+        run: sudo apt install graphviz
       - run: |
           java --version
+          dot -V
+      
 
