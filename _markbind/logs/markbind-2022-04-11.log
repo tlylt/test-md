@@ -1,0 +1,18 @@
+2022-04-11T03:57:06.851Z - info: versions.json file updated
+2022-04-11T03:57:07.447Z - info: Building assets...
+2022-04-11T03:57:08.105Z - info: Assets built
+2022-04-11T03:57:08.106Z - info: Generating pages...
+2022-04-11T03:57:08.707Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/test-md/version/v1.2.2/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-04-11T03:57:08.709Z - info: Pages built
+2022-04-11T03:57:08.885Z - info: Site data built
+2022-04-11T03:57:08.885Z - info: Successfully archived v1.2.2 at version/v1.2.2
+2022-04-11T03:57:24.325Z - info: versions.json file updated
+2022-04-11T03:57:24.773Z - info: Building assets...
+2022-04-11T03:57:25.476Z - info: Assets built
+2022-04-11T03:57:25.477Z - info: Generating pages...
+2022-04-11T03:57:26.000Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/test-md/version/v1.2.3/node_modules/lodash/mailto:git@github.com' found in file 'C:\Users\User\Documents\GitHub\test-md\node_modules\lodash\release.md'
+2022-04-11T03:57:26.001Z - info: Pages built
+2022-04-11T03:57:26.103Z - info: Site data built
+2022-04-11T03:57:26.103Z - info: Successfully archived v1.2.3 at version/v1.2.3
