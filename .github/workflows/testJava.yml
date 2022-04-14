@@ -5,7 +5,7 @@ jobs:
   test:
     strategy:
       matrix:
-        platform: [windows-latest]
+        platform: [macOS-latest]
     runs-on: ${{ matrix.platform }}
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
