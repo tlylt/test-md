@@ -1,0 +1,67 @@
+2022-04-14T08:44:41.292Z - info: Website generation started at 4:44:40 pm
+2022-04-14T08:44:41.579Z - info: Building assets...
+2022-04-14T08:44:42.103Z - info: Assets built
+2022-04-14T08:44:42.104Z - info: Generating pages...
+2022-04-14T08:44:42.664Z - info: stdout: java 11.0.9 2020-10-20 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.9+7-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.9+7-LTS, mixed mode)
+
+2022-04-14T08:44:42.664Z - error: stderr: 
+2022-04-14T08:44:42.673Z - info: Pages built
+2022-04-14T08:44:42.811Z - info: Site data built
+2022-04-14T08:44:42.811Z - info: Website generation complete! Total build time: 2.266s
+2022-04-14T08:44:42.835Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\_site" at http://127.0.0.1:8080
+2022-04-14T08:44:42.836Z - info: Press CTRL+C to stop ...
+2022-04-14T08:44:44.081Z - debug:  
+2022-04-14T08:44:44.082Z - info: stdout: 
+2022-04-14T08:44:44.083Z - error: stderr: 
+2022-04-14T08:46:17.245Z - info: [4:46:17 pm] Reload for file add: C:\Users\User\Documents\GitHub\test-md\diagrams\class.puml
+2022-04-14T08:46:18.330Z - info: Assets built
+2022-04-14T08:46:18.579Z - info: [4:46:18 pm] Reload for file change: C:\Users\User\Documents\GitHub\test-md\diagrams\class.puml
+2022-04-14T08:46:19.594Z - info: Assets built
+2022-04-14T08:46:20.043Z - info: [4:46:20 pm] Reload for file change: C:\Users\User\Documents\GitHub\test-md\index.md
+2022-04-14T08:46:21.057Z - info: Rebuilding 1 pages
+2022-04-14T08:46:21.126Z - info: Site data built
+2022-04-14T08:46:21.127Z - info: Pages rebuilt
+2022-04-14T08:46:21.130Z - info: Website regeneration complete! Total build time: 0.071s
+2022-04-14T08:46:21.265Z - info: stdout: java 11.0.9 2020-10-20 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.9+7-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.9+7-LTS, mixed mode)
+
+2022-04-14T08:46:21.266Z - error: stderr: 
+2022-04-14T08:46:21.306Z - info: stdout: java 11.0.9 2020-10-20 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.9+7-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.9+7-LTS, mixed mode)
+
+2022-04-14T08:46:21.306Z - error: stderr: 
+2022-04-14T08:46:22.976Z - debug:  
+2022-04-14T08:46:22.976Z - info: stdout: 
+2022-04-14T08:46:22.976Z - error: stderr: 
+2022-04-14T08:46:23.010Z - debug:  
+2022-04-14T08:46:23.041Z - info: stdout: 
+2022-04-14T08:46:23.041Z - error: stderr: 
+2022-04-14T08:46:39.006Z - info: Website generation started at 4:46:38 pm
+2022-04-14T08:46:39.234Z - info: Building assets...
+2022-04-14T08:46:39.757Z - info: Assets built
+2022-04-14T08:46:39.758Z - info: Generating pages...
+2022-04-14T08:46:40.344Z - info: stdout: java 11.0.9 2020-10-20 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.9+7-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.9+7-LTS, mixed mode)
+
+2022-04-14T08:46:40.344Z - error: stderr: 
+2022-04-14T08:46:40.348Z - info: stdout: java 11.0.9 2020-10-20 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.9+7-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.9+7-LTS, mixed mode)
+
+2022-04-14T08:46:40.348Z - error: stderr: 
+2022-04-14T08:46:40.372Z - info: Pages built
+2022-04-14T08:46:40.539Z - info: Site data built
+2022-04-14T08:46:40.540Z - info: Website generation complete! Total build time: 1.769s
+2022-04-14T08:46:40.567Z - info: Serving "C:\Users\User\Documents\GitHub\test-md\_site" at http://127.0.0.1:8080
+2022-04-14T08:46:40.568Z - info: Press CTRL+C to stop ...
+2022-04-14T08:46:41.888Z - debug:  
+2022-04-14T08:46:41.889Z - debug:  
+2022-04-14T08:46:41.890Z - info: stdout: 
+2022-04-14T08:46:41.890Z - error: stderr: 
+2022-04-14T08:46:41.891Z - info: stdout: 
+2022-04-14T08:46:41.891Z - error: stderr: 

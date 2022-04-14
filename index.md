@@ -55,3 +55,18 @@ C:/course/
   :construction:
   :fas-file-code:
 </tree>
+
+<puml width="300">
+@startuml
+alice -> bob ++ : hello
+bob -> bob ++ : self call
+bob -> bib ++  #005500 : hello
+bob -> george ** : create
+return done
+return rc
+bob -> george !! : delete
+return success
+@enduml
+</puml>
+
+<puml src="diagrams/class.puml" />
