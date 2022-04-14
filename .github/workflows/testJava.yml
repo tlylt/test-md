@@ -7,7 +7,8 @@ jobs:
       matrix:
         platform: [windows-latest]
     runs-on: ${{ matrix.platform }}
-
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -22,9 +23,11 @@ jobs:
       # - run: |
       #     java --version
       #     dot -V
-      - name: Build & Deploy to GitHub Pages
-        uses: MarkBind/markbind-action@release/v2
+      - run: npm i -g markbind-cli
+      - run: markbind build
+      - name: Upload artifacts 
+        uses: actions/upload-artifact@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
-
+          name: markbind-deployment
+          path: |
+            ./_site
