@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: 12
       - run: |
-        java --version
-        dot -V
+          java --version
+          dot -V
       - run: npm ci
       - run: npm run build
       - name: Check build status
